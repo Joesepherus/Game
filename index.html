@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Game</title>
+ 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+	</head>
+	<body>
+		<canvas id="background" width="600" height="360">
+			Your browser does not support canvas. Please try again with a different browser.
+		</canvas>
+		<canvas id="main" width="600" height="360">
+		</canvas>
+		<canvas id="marine" width="600" height="360">
+		</canvas>		
+		<div class="score">SCORE: <span id="score"></span></div>
+		<div class="game-over" id="game-over">GAME OVER<p><span onclick="game.restart()">New Game</span></p></div>
+		<div class="loading" id="loading">LOADING...<p>Please wait</p></div>
+		<script src="game - collision.js"></script>
+	</body>
+</html>

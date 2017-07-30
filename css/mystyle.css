@@ -1,0 +1,84 @@
+canvas {
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 0px;
+ 	background: transparent;
+ }
+
+ #background {
+ 	z-index: -2;
+ }
+
+ #main {
+ 	z-index: -1;
+ }
+
+ #ship {
+ 	z-index: 0;
+ }
+
+.score {
+	position: absolute;
+	top: 5px;
+	left: 480px;
+	color: #FF7F00;
+	font-family: Consolas, sans-serif;
+	cursor: default;
+}
+
+.health {
+	position: absolute;
+	top: 5px;
+	left: 40px;
+	color: #FF7F00;
+	font-family: Consolas, sans-serif;
+	cursor: default;
+}
+
+.game-over {
+	position: absolute;
+	top: 150px;
+	left: 210px;
+	color: #FF7F00;
+	font-family: Consolas, sans-serif;
+	font-size: 30px;
+	cursor: default;
+	display: none;
+	font-weight:bold;
+}
+
+.game-over span {
+	font-size: 20px;
+	cursor: pointer;
+	position: relative;
+	left: 30px;
+	top: -20px;
+}
+
+.game-over span:hover {
+	color: #FFD700;
+}
+
+.start-up {
+	position: absolute;
+	top: 150px;
+	left: 210px;
+	color: #FF7F00;
+	font-family: Consolas, sans-serif;
+	font-size: 30px;
+	cursor: default;
+	display: none;
+	font-weight:bold;
+}
+
+.start-up span {
+	font-size: 20px;
+	cursor: pointer;
+	position: relative;
+	left: -20px;
+	top: -20px;
+}
+
+.start-up span:hover {
+	color: #FFD700;
+}
